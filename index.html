@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+    <title>Ashu Kr Thakur - Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Ashu Kr Thakur, a full-stack developer building AI-powered products with React, Node.js and MongoDB." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ashu Kr Thakur - Full Stack Developer" />
+    <meta property="og:description" content="Full-stack developer and AI enthusiast building impactful products end to end." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("portfolio-theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+              ? "light"
+              : "dark";
+          if (theme === "light") document.documentElement.classList.add("light");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
