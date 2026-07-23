@@ -139,7 +139,7 @@ export type ExperienceItem = {
   role: string;
   organization: string;
   period: string;
-  type: "work" | "education";
+  type: "work" | "education" | "milestone";
   description: string;
   highlights: string[];
 };

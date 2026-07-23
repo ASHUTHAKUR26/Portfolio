@@ -6,7 +6,7 @@ import { LinkedinIcon } from "@/components/ui/LinkedinIcon";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
 import { socials } from "@/data/profile";
-import { YoutubeSection } from "@/sections/YoutubeSection";
+// import { YoutubeSection } from "@/sections/YoutubeSection";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
