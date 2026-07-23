@@ -45,6 +45,7 @@ export type Project = {
 
 export const youtube = {
   channelName: "Campus With Ashu",
+  handle: "@campuswithashu",
   tagline: "Learn smart. Build skills. Grow your career.",
   description:
     "Campus With Ashu is a YouTube channel built for engineering students. I share practical AI tools, coding hacks, study tips, and career guidance — the kind of things that actually help while you're in college, not just theory. The goal is simple: help students learn smarter, pick up real skills, and move their careers forward with confidence.",

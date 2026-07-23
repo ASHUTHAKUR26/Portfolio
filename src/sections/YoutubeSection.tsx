@@ -12,16 +12,17 @@ export function YoutubeSection() {
         <SectionHeading eyebrow="youtube" title="Meet me on YouTube." />
 
         <Reveal delay={0.08}>
-          <div className="glass mt-12 grid grid-cols-1 gap-10 rounded-3xl p-8 sm:p-10 lg:grid-cols-[auto_1fr] lg:items-center">
-            <div className="flex items-center gap-5">
-              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#FF0000]/10 text-[#FF0000]">
-                <YoutubeIcon size={32} />
+          <div className="glass mt-12 grid grid-cols-1 gap-10 rounded-3xl p-8 sm:p-10 lg:grid-cols-[260px_1fr] lg:items-stretch">
+            <div className="flex flex-col items-center justify-center gap-5 text-center lg:h-full lg:px-4">
+              <span className="flex h-24 w-24 items-center justify-center rounded-3xl bg-[#FF0000]/10 text-[#FF0000]">
+                <YoutubeIcon size={48} />
               </span>
               <div>
-                <p className="mono-eyebrow mb-1">// {youtube.channelName}</p>
+                <p className="mono-eyebrow mb-1.5">// {youtube.channelName}</p>
                 <p className="font-display text-lg font-semibold text-[var(--color-ink)]">
                   {youtube.tagline}
                 </p>
+                <p className="mt-1.5 text-sm text-[var(--color-muted)]">{youtube.handle}</p>
               </div>
             </div>
 
